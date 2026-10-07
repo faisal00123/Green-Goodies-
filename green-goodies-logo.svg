@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">Green Goodies</title>
+  <desc id="desc">Green Goodies premium homemade treats logo with gold lettering and green leaves.</desc>
+  <defs>
+    <radialGradient id="green" cx="48%" cy="42%" r="65%">
+      <stop offset="0" stop-color="#073d20"/>
+      <stop offset="1" stop-color="#001d10"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f9e28a"/>
+      <stop offset=".52" stop-color="#d7ad45"/>
+      <stop offset="1" stop-color="#fff0a4"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9ddd43"/>
+      <stop offset="1" stop-color="#078436"/>
+    </linearGradient>
+    <path id="tagline-arc" d="M 119 428 C 205 541 435 541 521 428"/>
+  </defs>
+  <rect width="640" height="640" fill="#000"/>
+  <circle cx="320" cy="320" r="279" fill="url(#green)" stroke="url(#gold)" stroke-width="7"/>
+  <circle cx="320" cy="320" r="263" fill="none" stroke="#e8c85f" stroke-width="3"/>
+  <circle cx="320" cy="320" r="251" fill="none" stroke="#cda83f" stroke-width="1.5"/>
+
+  <g fill="url(#leaf)" stroke="#137d37" stroke-width="2">
+    <path d="M405 267C362 228 370 148 402 89c39 44 43 117 3 178Z"/>
+    <path d="M404 267c18-59 75-91 136-79-16 56-76 94-136 79Z"/>
+  </g>
+  <g fill="none" stroke="#07582b" stroke-width="3" stroke-linecap="round">
+    <path d="M405 267c3-55 1-112-3-167M407 235c-15-17-25-34-31-52M405 208c14-18 24-39 29-61M407 183c-12-11-20-23-26-36M405 261c38-34 78-58 123-70M446 231c-3-18-2-34 2-48M474 216c9 9 19 15 31 18M429 246c-1-13 1-24 5-35"/>
+  </g>
+
+  <text x="101" y="294" fill="url(#gold)" font-family="Georgia, 'Times New Roman', serif" font-size="91">Green</text>
+  <text x="101" y="397" fill="url(#gold)" font-family="Georgia, 'Times New Roman', serif" font-size="91">Goodies</text>
+  <path d="M228 463c53 24 131 24 184 0" fill="none" stroke="#d8b64d" stroke-width="2"/>
+  <text fill="#f2d56c" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing="2.2">
+    <textPath href="#tagline-arc" startOffset="50%" text-anchor="middle">• PREMIUM HOMEMADE TREATS •</textPath>
+  </text>
+</svg>
